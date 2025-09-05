@@ -1,57 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio profesional</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
-        <div class="nav_container">
-            <a href="#Inicio" class="link">Inicio</a>
-            <a href="#Acercademi" class="link">Acerca de mi</a>
-            <a href="#Habailidades" class="link">Habilidades</a>
-            <a href="#Proyectos" class="link">Proyectos</a>
-            <a href="#Contacto" class="link">Contacto</a>
+        <div class="nav_container grey-bg header">
+            <a href="#Inicio" class="menu-options">Inicio</a>
+            <div>
+                <a href="#Acercademi" class="menu-options">Acerca de mi</a>
+                <a href="#Habilidades" class="menu-options">Habilidades</a>
+                <a href="#Proyectos" class="menu-options">Proyectos</a>
+                <a href="#Contacto" class="menu-options">Contacto</a>
+            </div>
         </div>
     </header>
 
-    <section id="Inicio">
+    <section id="Inicio" class="section-center">
         <div class="hero_container">
             <div class="hero_text">
                 <h1>Hola, soy Odon</h1>
                 <p>Desarrollador Web Frontend</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur vitae nostrum earum quis.<br>
+                    Qui eos maxime iusto hic laudantium, eum incidunt ab mollitia dolore deleniti. Hic numquam
+                    voluptatem aperiam? Porro.</p>
+
             </div>
             <div class="hero_image">
                 <div class="image_container">
-                    <img src="https://via.placeholder.com/150" alt="Odon">
+                    <img src="/img/images.png" alt="Odon">
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="Acercademi">
+    <section id="Acercademi" class="section-center grey-bg">
         <div class="Acercademi_container">
-            <div class="title_container">
-                <h2>Acerca de mi</h2>
-            </div>
-            <div class="text_container">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur vitae nostrum earum quis.<br> Qui eos maxime iusto hic laudantium, eum incidunt ab mollitia dolore deleniti. Hic numquam voluptatem aperiam? Porro.</p>
-            </div>
             <div class="image_container">
-                <img src="https://via.placeholder.com/150" alt="Odon">
+                <img src="/img/images.png" alt="Odon">
+            </div>
+            <div>
+                <div class="title_container">
+                    <h2>Acerca de mi</h2>
+                </div>
+                <div class="text_container">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur vitae nostrum earum
+                        quis.<br> Qui eos maxime iusto hic laudantium, eum incidunt ab mollitia dolore deleniti. Hic
+                        numquam voluptatem aperiam? Porro.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="Habilidades">
+    <section id="Habilidades" class="section-center">
         <div class="Habilidades_container">
-            <div class ="title_container">
+            <div class="title_container">
                 <h2>Habilidades</h2>
                 <p>Habilidades que manejo:</p>
             </div>
-            <div class="skills_container">
-                <ul class="skills_list">
+            <div class="skills_container items-center">
+                <div class="skill_item">
+                    <img src="/img/images.png" alt="HTML Icon" class="tech-image-size">
+                    <p>HTML</p>
+                </div>
+                <div class="skill_item">
+                    <img src="/img/logotipo_css-min.png" alt="CSS Icon" class="tech-image-size">
+                    <p>CSS</p>
+                </div>
+                <div class="skill_item">
+                    <img src="/img/images (1).png" alt="JavaScript Icon" class="tech-image-size">
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill_item">
+                    <img src="/img/images.jpeg" alt="GitHub Icon" class="tech-image-size">
+                    <p>GitHub</p>
+                </div>
+                <div class="skill_item">
+                    <img src="/img/git.png" alt="Git Icon" class="tech-image-size">
+                    <p>Git</p>
+                </div>
+
+                <!-- <ul class="skills_list">
                     <li>
                         <img src="/img/images.png" alt="HTML Icon">
                         <span>HTML</span>
@@ -72,28 +106,41 @@
                         <img src="/img/git.png" alt="Git Icon">
                         <span>Git</span>
                     </li>
-                </ul>
+                </ul> -->
             </div>
         </div>
     </section>
 
-    <section id="Proyectos">
+    <section id="Proyectos" class="section-center grey-bg">
         <div class="Proyectos_container">
             <div class="title_container">
                 <h2>Proyectos</h2>
+                <br>
             </div>
             <div class="projects_container">
                 <div class="project_card">
-                    <img src="https://via.placeholder.com/150" alt="Proyecto 1">
-                    <h3>Proyecto "Mi portafolio profesional"</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit temporibus harum voluptatum accusamus perspiciatis nobis esse, repudiandae a officia rem, assumenda veniam voluptates. <br> Nobis voluptatem rerum architecto vero iure deleniti!</p>
+                    <div>
+                        <img src="/img/images.png" alt="Proyecto 1">
+                    </div>
+                    <div>
+                        <h3>Proyecto "Mi portafolio profesional"</h3>
+                        <br <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit temporibus harum
+                        voluptatum
+                        accusamus perspiciatis nobis esse, repudiandae a officia rem, assumenda veniam voluptates.
+                        <br>
+                        Nobis voluptatem rerum architecto vero iure deleniti!
+                        </p>
+                    </div>
+                    <div>
+                        <p>Timeline</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="Contacto">
-        <div class="contact_container">
+    <section id="Contacto" class="section-center">
+        <div class="contact_container ">
             <div class="title_container">
                 <h2>Contacto</h2>
             </div>
@@ -105,8 +152,9 @@
 
     <footer>
         <div class="footer_container">
-            <p>&copy; 2024 Odon. Todos los derechos reservados.</p>
+            <p class="black-font">&copy; 2024 Odon. Todos los derechos reservados.</p>
         </div>
     </footer>
 </body>
+
 </html>

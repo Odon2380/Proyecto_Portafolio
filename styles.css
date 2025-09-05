@@ -1,0 +1,103 @@
+/* Config Base - CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffff;
+    color: #333;
+    line-height: 1.6;
+}
+
+.tech-image-size {
+    width: 50px;
+    height: 50px;
+}
+
+.items-center {
+    display: flex;
+}
+
+.items-center div {
+    padding: 10px 40px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f9fafb;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.section-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 50vh;
+}
+
+.grey-bg {
+    background-color: #f9fafb;
+}
+
+.black-font {
+    color: #000;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.menu-options {
+    text-decoration: none;
+    color: inherit;
+    padding: 0 10px;
+}
+
+.menu-options:hover {
+    color: #000;
+    /* azul de ejemplo */
+}
+
+.hero_container {
+    display: flex;
+}
+
+.Acercademi_container {
+    display: flex;
+}
+
+.project_card {
+    display: flex;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.project_card div {
+    padding: 0 20px;
+}
+
+.project_card h3 {
+    padding: 0 20px;
+}
+
+.projects_container {
+    padding: 0 20px;
+}
+
+.Proyectos_container{
+    padding: 20px 10px;
+}
