@@ -14,12 +14,15 @@ body {
 }
 
 .tech-image-size {
-    width: 50px;
-    height: 50px;
+    width: 88px;
+    height: 100px;
+    object-fit: contain;
+    gap: 20px;
 }
 
 .items-center {
     display: flex;
+    padding: 10px 40px;
 }
 
 .items-center div {
@@ -31,7 +34,6 @@ footer {
     padding: 1rem;
     background-color: #f9fafb;
     color: #fff;
-    position: fixed;
     bottom: 0;
     width: 100%;
 }
@@ -41,7 +43,9 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-height: 50vh;
+    margin: 130px 0px 130px;
+    height: 552px;
+    padding: 80px 96px;
 }
 
 .grey-bg {
@@ -52,30 +56,86 @@ footer {
     color: #000;
 }
 
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 60px;
     padding: 10px 20px;
+    opacity: 0.95;
 }
 
 .menu-options {
     text-decoration: none;
     color: inherit;
     padding: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .menu-options:hover {
-    color: #000;
-    /* azul de ejemplo */
+    color: #d30e0e;
 }
 
 .hero_container {
     display: flex;
+    padding: 32px;
+    gap: 55px;
+}
+
+.hero_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.hero_title {
+    font-size: 45px;
+}
+
+.hero_profesion {
+    font-size: 20px;
+
+}
+
+.profesion_text {
+    font-size: 16px;
+    padding-top: 20px;
+    text-align: justify;
+}
+
+.profile_image {
+    width: 280px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .Acercademi_container {
     display: flex;
+    padding:32px;
+    gap: 48px;
+}
+
+.title_container {
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+.text{
+    font-size: 19px;
+    padding-top: 10px;}
+
+.text_container {
+    text-align: justify;
+    padding-right: 20px;
 }
 
 .project_card {
@@ -100,4 +160,14 @@ footer {
 
 .Proyectos_container{
     padding: 20px 10px;
+}
+
+.project_text {
+    font-size: 16px;
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.contact{
+    padding-bottom: 30px;
 }
