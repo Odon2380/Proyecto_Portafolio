@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #ffff;
+    background-color:#ffff;
     color: #333;
     line-height: 1.6;
 }
@@ -32,20 +32,22 @@ body {
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #f9fafb;
-    color: #fff;
+    background-color: #415c79;
+    color: #ffffff;
     bottom: 0;
     width: 100%;
 }
 
 .section-center {
     display: flex;
+    max-width: 1260px;
+    width: 100%;
+    height: 100vh;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 130px 0px 130px;
-    height: 552px;
     padding: 80px 96px;
+    margin: 0 auto;
 }
 
 .grey-bg {
@@ -76,7 +78,7 @@ header {
     text-decoration: none;
     color: inherit;
     padding: 0 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif   ;
 }
 
 .menu-options:hover {
@@ -108,6 +110,7 @@ header {
 .profesion_text {
     font-size: 16px;
     padding-top: 20px;
+    padding-right: 120px;
     text-align: justify;
 }
 
@@ -136,6 +139,7 @@ header {
 .text_container {
     text-align: justify;
     padding-right: 20px;
+    margin: 20px 20px 20px 20px;
 }
 
 .project_card {
@@ -170,4 +174,27 @@ header {
 
 .contact{
     padding-bottom: 30px;
+}
+
+.linkedin_container{
+    margin-top: 25px;
+}
+
+.image_about {
+    width: 280px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.emoticon {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.h1_container{
+    display: flex;
 }
