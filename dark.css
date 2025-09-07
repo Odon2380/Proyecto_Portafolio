@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #251f1f73;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.tech-image-size {
+    width: 88px;
+    height: 100px;
+    object-fit: contain;
+    gap: 20px;
+}
+
+.items-center {
+    display: flex;
+    padding: 10px 40px;
+}
+
+.items-center div {
+    padding: 10px 40px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #415c79;
+    color: #ffffff;
+    bottom: 0;
+    width: 100%;
+}
+
+.section-center {
+    display: flex;
+    max-width: 1260px;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 80px 96px;
+    margin: 0 auto;
+}
+
+.grey-bg {
+    background-color: #242a30;
+}
+
+.black-font {
+    color: #ffffff;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 10px 20px;
+    opacity: 0.95;
+}
+
+.menu-options {
+    text-decoration: none;
+    color: inherit;
+    padding: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-options:hover {
+    color:  #3ee20c73;
+}
+
+.hero_container {
+    display: flex;
+    padding: 32px;
+    gap: 55px;
+}
+
+.hero_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.hero_title {
+    font-size: 45px;
+}
+
+.hero_profesion {
+    font-size: 20px;
+
+}
+
+.profesion_text {
+    font-size: 16px;
+    padding-top: 20px;
+    padding-right: 120px;
+    text-align: justify;
+}
+
+.profile_image {
+    width: 280px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.Acercademi_container {
+    display: flex;
+    padding: 32px;
+    gap: 48px;
+}
+
+.title_container {
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+.text {
+    font-size: 19px;
+    padding-top: 10px;
+}
+
+.text_container {
+    text-align: justify;
+    padding-right: 20px;
+    margin: 20px 20px 20px 20px;
+}
+
+.project_card {
+    display: flex;
+    background-color: rgb(41, 30, 30);
+    box-shadow: 0 2px 10px rgba(51, 48, 48, 0.15);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.project_card div {
+    padding: 0 20px;
+}
+
+.project_card h3 {
+    padding: 0 20px;
+}
+
+.projects_container {
+    padding: 0 20px;
+}
+
+.Proyectos_container {
+    padding: 20px 10px;
+}
+
+.project_text {
+    font-size: 16px;
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.contact {
+    padding-bottom: 30px;
+}
+
+.linkedin_container {
+    margin-top: 25px;
+}
+
+.image_about {
+    width: 280px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.emoticon {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.h1_container {
+    display: flex;
+}
+
+.tech_container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#boton{
+    border-radius: 20px;
+    width:auto;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
